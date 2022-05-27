@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-family: sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+header{
+    background: rgb(0,13,32);
+    /* color: rgb(210,210,210); */
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+border-bottom: 1px solid rgb(38,49,65);
+z-index: 99;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    list-style: none;
+    color: white;
+    opacity: 5;
+}
+.nav2 li{
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.nav2 li:hover{
+    color: rgb(4,219,236);
+}
+.nav1 h2{
+font-size: 30px;
+color: white;
+font-weight: 600;
+cursor: pointer;
+}
+.nav1 h2:hover{
+    color: rgb(210,210,210);
+}
+
+.nav3 p{
+    font-weight: bold;
+}
+.nav3{
+    background: rgb(4,219,236);
+    /* width: fit-content; */
+    height: fit-content;
+    padding: 12px 40px;
+    border-radius: 5px;
+    color: white;
+}
+.nav3:hover{
+    /* background-color: rgb(4,219,236); */
+    color: black;
+    transition: 1s;
+}
+.one{
+    padding-top: 80px;
+    background-color: rgb(0,13,32);
+   
+}
+.torn img{
+width: 100%;
+}
+.on{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: auto;
+    color: white;
+    /* align-items: center; */
+}
+.corn{
+    padding-right: 100px;
+    margin-top: 150px;
+}
+.corn h1{
+    font-size: 40px;
+    font-weight: 800;
+    /* font-family: sans-serif; */
+    word-spacing: -5px;
+margin-bottom: 30px;
+}
+.corn p{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+
+.two{
+    background: rgb(249,249,249);
+    padding: 60px 0;
+}
+.fun{
+border: 1px solid rgb(4,219,236);
+width: fit-content;
+padding: 15px 60px;
+border-radius: 5px;
+margin-top: 80px;
+}
+.fun p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(4,219,236);
+}
+.burn{
+border: 1px solid rgb(4,219,236);
+width: fit-content;
+padding: 15px 60px;
+border-radius: 5px;
+margin-top: 80px;
+margin: 80px auto 0;
+}
+.burn p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(4,219,236);
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    transition: 3s ease-in-out;
+
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    margin-top: -60px;
+    transition: 1s ease;
+    display: none;
+
+      
+}
+.file{
+    background: rgb(73,236,249);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 50%;
+    border-top-right-radius: 0px;
+    margin: auto;
+   
+}
+.tile{
+    background: rgb(98,255,177);
+    width: fit-content;
+    /* height: fit-content; */
+    padding: 20px;
+    border-radius: 50%;
+    border-top-right-radius: 0px;
+    margin: auto;
+   
+}
+.bile{
+    background: rgb(246,135,49);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 50%;
+    border-top-right-radius: 0px;
+    margin: auto;
+   
+}
+/* .fun::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    background-color: rgb(4,219,236);
+    color: black;
+    transition: .2s;
+    height: 100%;
+}
+.fun:hover::before{
+    width: 100%;
+} */
+.file i{
+font-size: 30px;
+color: white;
+}
+.tile i{
+font-size: 30px;
+color: white;
+font-weight: 900;
+}
+.bile i{
+font-size: 30px;
+color: white;
+}
+.blue{
+    width: 300px;
+    /* align-items: center; */
+}
+.icons h3{
+font-size: 25px;
+color: rgb(0,13,32);
+margin: 20px 0;
+text-align: center;
+transition: 1s;
+}
+.icons:hover h3{
+    color: rgb(73,236,249);
+}
+.blue p{
+    font-size: 18px;
+color: rgb(101,112,116);
+line-height: 1.5;
+text-align: center;
+}
+.who{
+    text-align: center;
+}
+.who h4{
+color: rgb(73,236,249);
+}
+.who h1{
+font-size: 35px;
+color: rgb(0,13,32);
+}
+/* .icons:hover .main{
+display: block;
+} */
+.icons .triangle{
+/* background-color: blueviolet; */
+border-bottom: 10px solid greenyellow;
+border-right: 5px solid transparent;
+border-left: 5px solid transparent;
+width: fit-content;
+/* margin:0 auto; */
+position: relative;
+margin-top: -90px;
+margin-left: 170px;
+transition: 1s ease;
+
+}
+/* .icons .triangle:hover{
+    margin-top: 10px;
+    position: absolute;
+} */
+.icons .square{
+    width: 10px;
+    height: 10px;
+background: black;
+transition: 1s ease;
+
+margin-top: 5px;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+.icons .rectangle{
+    width: 10px;
+    height: 10px;
+background: red;
+/* margin: 0 auto; */
+margin-top: 60px;
+margin-left: 105px;
+transition: 1s ease;
+
+}
+.icons .circle{
+    width: 10px;
+    height: 10px;
+background: orange;
+border-radius: 50%;
+/* margin:0 auto; */
+margin-left: 190px;
+margin-top: -40px;
+transition: 1s ease;
+
+}
+/* .icons .circle:hover{
+    margin-left: 150px;
+
+} */
+
+.colors{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+.triangle:hover{
+margin-top: 20px;
+}
+
+
+
+
+/* section three */
+.three{
+    padding: 50px 0;
+    background-color: rgb(249,249,249);
+}
+.hexagon{
+    background-color: rgb(245,179,209);
+    width: 95px;
+    height: 59px;
+    position: absolute;
+    /* top: 50%;
+    bottom: 50%; */
+    
+    transform: translate(50%, 50%);
+    border-radius: 5px;
+    margin-left: -45px;
+    /* margin-bottom: 20px; */
+    /* text-align: center; */
+    
+
+}
+.hexagon::before,
+.hexagon::after{
+content: '';
+width: 100%;
+height: 100%;
+background-color: black;
+position: absolute;
+border-radius: 5px;
+/* margin-top: -30px; */
+}
+.hexagon::before{
+    transform: rotate(60deg);
+}
+.hexagon::after{
+    transform: rotate(-60deg);
+}
+.target{
+    color: rgb(245,179,209);
+    font-size: 50px;
+    position:  relative;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.real{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+.man img{
+    width: 100%;
+}
+.woman h1{
+    font-size: 35px;
+    color: rgb(0,13,32);
+    margin: 40px 0 20px;
+}
+.woman p{
+    font-size: 16px;
+    color: rgb(101,112,116);
+    line-height: 2;
+    /* text-align: center;   */
+}
+.woman{
+    padding-right: 100px;
+}
